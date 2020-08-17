@@ -5,10 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/IanDex/twitter/middleware"
-	"github.com/IanDex/twitter/routers"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
+
+	"github.com/IanDex/twitter/middleware"
+	"github.com/IanDex/twitter/routers"
 )
 
 /*Manejadores d*/
@@ -19,7 +20,7 @@ func Manejadores() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "7600"
+		port = "8080"
 	}
 
 	handler := cors.AllowAll().Handler(router)
