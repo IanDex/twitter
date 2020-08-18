@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d0f218e-3c8e-42bf-8238-ae8d41af092d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/buscoPerfil.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/validoJWT.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/claim.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/respuestaLogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/procesoToken.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/verPerfil.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/funtions.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/funtions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1gDMX6aV8YV9ZI4sQ01fuK1fhX2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build twitter main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="twitter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../twitter|$PROJECT_DIR$/main.go" />
+      <package value="github.com/IanDex/twitter" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="$USER_HOME$/Downloads/SpellChecker-Dict-Spanish/src/dict" CustomDictionaries="1" CustomDictionary0="$USER_HOME$/Downloads/SpellChecker-Dict-Spanish/src/dict/spanish.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="478" y="27" width="402" height="689" key="#GOPATH" timestamp="1597646085565">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="478" y="27" width="402" height="689" key="#GOPATH/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597646085565" />
+    <state x="1844" y="313" width="410" height="154" key="#GOROOT" timestamp="1597644924713">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1844" y="313" width="410" height="154" key="#GOROOT/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597644924713" />
+    <state x="1848" y="214" key="#Go_Modules" timestamp="1597644974021">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1848" y="214" key="#Go_Modules/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597644974021" />
+    <state x="1682" y="59" key="#Inspections" timestamp="1597645301655">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1682" y="59" key="#Inspections/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597645301655" />
+    <state x="146" y="11" width="1073" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597647313871">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="146" y="11" width="1073" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647313871" />
+    <state x="470" y="135" key="FileChooserDialogImpl" timestamp="1597647309880">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="470" y="135" key="FileChooserDialogImpl/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647309880" />
+    <state x="1836" y="142" key="FileChooserDialogImpl/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597645686115" />
+    <state width="1320" height="160" key="GridCell.Tab.0.bottom" timestamp="1597647330178">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="160" key="GridCell.Tab.0.bottom/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
+    <state width="1320" height="160" key="GridCell.Tab.0.center" timestamp="1597647330178">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="160" key="GridCell.Tab.0.center/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
+    <state width="1320" height="160" key="GridCell.Tab.0.left" timestamp="1597647330178">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="160" key="GridCell.Tab.0.left/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
+    <state width="1320" height="160" key="GridCell.Tab.0.right" timestamp="1597647330178">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="160" key="GridCell.Tab.0.right/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
+    <state x="215" y="0" key="SettingsEditor" timestamp="1597723359899">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="215" y="0" key="SettingsEditor/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597723359899" />
+    <state x="215" y="0" key="SettingsEditor/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597645734952" />
+  </component>
+</project>

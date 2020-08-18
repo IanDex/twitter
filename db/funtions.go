@@ -10,13 +10,6 @@ import (
 	"github.com/IanDex/twitter/models"
 )
 
-// EncryptPass s
-func EncryptPass(pass string) (string, error) {
-	costo := 8
-	bytes, err := bcrypt.GenerateFromPassword([]byte(pass), costo)
-	return string(bytes), err
-}
-
 // CheckDuplicateUser UseruplicateUser
 func CheckDuplicateUser(email string) (models.Users, bool, string) {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
@@ -35,4 +28,29 @@ func CheckDuplicateUser(email string) (models.Users, bool, string) {
 	}
 
 	return results, true, ID
+}
+
+// EncryptPass s
+func EncryptPass(pass string) (string, error) {
+	costo := 8
+	bytes, err := bcrypt.GenerateFromPassword([]byte(pass), costo)
+	return string(bytes), err
+}
+
+// IntentoLogin IntentoLogin
+func IntentoLogin(email string, password string) (models.Users, bool) {
+	user, encontrado, _ := CheckDuplicateUser(email)
+	if !encontrado {
+		return user, false
+	}
+
+	passwordBytes := []byte(password)
+	passwordDB := []byte(user.Password)
+
+	err := bcrypt.CompareHashAndPassword(passwordDB, passwordBytes)
+	if err != nil {
+		return user, false
+	}
+
+	return user, true
 }
