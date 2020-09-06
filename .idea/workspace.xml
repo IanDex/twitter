@@ -25,17 +25,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d0f218e-3c8e-42bf-8238-ae8d41af092d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/buscoPerfil.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/jwt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/validoJWT.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/claim.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/respuestaLogin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/procesoToken.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/verPerfil.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/funtions.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/funtions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/borroRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/borroTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/consultaRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/insertoRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/insertoTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/leoTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/leoTweetSeguidores.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/leoUsuariosTodos.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/modificoRegistro.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/devuelvoTweets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/devuelvoTweetsSeguidores.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/graboTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/relacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/respuestaC_Relacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/altaRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/consultarRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/eliminarRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/eliminarTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/getImage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/graboTweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/leoTweets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/leoTweetsRelacion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/modificarPerfil.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/subirAvatar.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/vistaUsuario.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/procesoToken.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/procesoToken.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/verPerfil.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/verPerfil.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -66,7 +86,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -74,16 +95,23 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routers" />
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.main.go">
     <configuration name="go build twitter main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <module name="twitter" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,6 +122,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="main.go" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="twitter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/IanDex/twitter" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.main.go" />
+      <item itemvalue="Go Build.go build twitter main.go" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="$USER_HOME$/Downloads/SpellChecker-Dict-Spanish/src/dict" CustomDictionaries="1" CustomDictionary0="$USER_HOME$/Downloads/SpellChecker-Dict-Spanish/src/dict/spanish.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -122,43 +165,64 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1844" y="313" width="410" height="154" key="#GOROOT/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597644924713" />
+    <state x="457" y="229" key="#Go_Linter" timestamp="1598774499409">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="457" y="229" key="#Go_Linter/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1598774499409" />
     <state x="1848" y="214" key="#Go_Modules" timestamp="1597644974021">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1848" y="214" key="#Go_Modules/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597644974021" />
-    <state x="1682" y="59" key="#Inspections" timestamp="1597645301655">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="316" y="56" key="#Inspections" timestamp="1599349982674">
+      <screen x="0" y="0" width="1366" height="732" />
     </state>
+    <state x="316" y="56" key="#Inspections/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599349982674" />
     <state x="1682" y="59" key="#Inspections/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597645301655" />
-    <state x="146" y="11" width="1073" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597647313871">
+    <state x="146" y="0" width="1073" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599333343291">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="146" y="11" width="1073" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647313871" />
-    <state x="470" y="135" key="FileChooserDialogImpl" timestamp="1597647309880">
+    <state x="146" y="0" width="1073" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599333343291" />
+    <state x="548" y="36" key="EnvironmentVariablesDialog" timestamp="1599333229902">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="470" y="135" key="FileChooserDialogImpl/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647309880" />
+    <state x="548" y="36" key="EnvironmentVariablesDialog/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599333229902" />
+    <state x="470" y="135" key="FileChooserDialogImpl" timestamp="1599333314667">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="470" y="135" key="FileChooserDialogImpl/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599333314667" />
     <state x="1836" y="142" key="FileChooserDialogImpl/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597645686115" />
-    <state width="1320" height="160" key="GridCell.Tab.0.bottom" timestamp="1597647330178">
+    <state width="1320" height="107" key="GridCell.Tab.0.bottom" timestamp="1599354757063">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.bottom/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
-    <state width="1320" height="160" key="GridCell.Tab.0.center" timestamp="1597647330178">
+    <state width="1320" height="107" key="GridCell.Tab.0.bottom/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599354757063" />
+    <state width="1320" height="107" key="GridCell.Tab.0.center" timestamp="1599354757063">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.center/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
-    <state width="1320" height="160" key="GridCell.Tab.0.left" timestamp="1597647330178">
+    <state width="1320" height="107" key="GridCell.Tab.0.center/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599354757063" />
+    <state width="1320" height="107" key="GridCell.Tab.0.left" timestamp="1599354757063">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.left/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
-    <state width="1320" height="160" key="GridCell.Tab.0.right" timestamp="1597647330178">
+    <state width="1320" height="107" key="GridCell.Tab.0.left/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599354757063" />
+    <state width="1320" height="107" key="GridCell.Tab.0.right" timestamp="1599354757063">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.right/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597647330178" />
-    <state x="215" y="0" key="SettingsEditor" timestamp="1597723359899">
+    <state width="1320" height="107" key="GridCell.Tab.0.right/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599354757063" />
+    <state x="167" y="0" width="984" height="742" key="SettingsEditor" timestamp="1599349045531">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="215" y="0" key="SettingsEditor/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1597723359899" />
+    <state x="167" y="0" width="984" height="742" key="SettingsEditor/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599349045531" />
     <state x="215" y="0" key="SettingsEditor/0.0.1366.732/1366.0.1366.768@1366.0.1366.768" timestamp="1597645734952" />
+    <state x="523" y="173" width="312" height="398" key="StringManipulation.Base64EncodingDialog" timestamp="1598775672156">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="523" y="173" width="312" height="398" key="StringManipulation.Base64EncodingDialog/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1598775672156" />
+    <state x="0" y="0" width="585" height="732" key="find.popup" timestamp="1599353442352">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="0" y="0" width="585" height="732" key="find.popup/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599353442352" />
+    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1599349435394">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1366.732/1366.0.1366.768@0.0.1366.732" timestamp="1599349435394" />
   </component>
 </project>

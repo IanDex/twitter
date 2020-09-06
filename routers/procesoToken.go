@@ -3,15 +3,14 @@ package routers
 import (
 	"errors"
 	"github.com/IanDex/twitter/db"
-	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/IanDex/twitter/models"
+	jwt "github.com/dgrijalva/jwt-go"
 	"strings"
 )
 
-var (
-	Email     string
-	IDUsuario string
-)
+var Email     string
+var	IDUsuario string
+
 
 func ProcesoToken(tk string) (*models.Claim, bool, string, error) {
 	secretKey := []byte("Cristtian")
@@ -28,15 +27,15 @@ func ProcesoToken(tk string) (*models.Claim, bool, string, error) {
 		return secretKey, nil
 	})
 
-	if err != nil {
+	if err == nil {
 		_, encontrado, _ := db.CheckDuplicateUser(claims.Email)
 		if encontrado {
 			Email = claims.Email
 			IDUsuario = claims.ID.Hex()
 		}
+
 		return claims, encontrado, IDUsuario, nil
 	}
-
 	if !tkn.Valid {
 		return claims, false, string("err"), errors.New("token invalido")
 	}
